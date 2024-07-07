@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+    background-image: url("./record.png");
+    background-repeat: repeat;
+}
+
+header {
+    background-color: rgb(49, 49, 49);
+    color: antiquewhite;
+    outline: 3px solid antiquewhite;;
+    outline-style: double;
+    outline-offset: -3.9px;
+    border-radius: 5px;
+    padding: 0.1px;
+    text-shadow: -1px -1px 1px black,
+                -1px 1px 1px black,
+                1px 1px 1px black,
+                1px -1px 1px black;
+}
+
+.title {
+    margin-bottom: -15px;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    letter-spacing: 2px;
+}
+
+.name {
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+main {
+    height: 100px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2.5px dotted black;
+    border-radius: 7px;
+    background-color: rgb(211, 210, 208, 0.8);
+    background-clip: padding-box;
+    box-sizing: border-box;
+}
+
+.text {
+    margin: 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: rgb(255, 242, 226);
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    text-shadow: -1px -1px black,
+                -1px 1px black,
+                1px 1px black,
+                1px -1px black;
+    letter-spacing: 1px;
+}
